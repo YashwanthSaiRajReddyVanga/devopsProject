@@ -2,8 +2,7 @@ pipeline {
     agent any
     
     environment {
-        // Define environment variables here
-        MAVEN_HOME = tool 'Maven 3.8.1'  // Ensure Maven is installed in Jenkins
+        MAVEN_HOME = tool 'Maven 3.8.1'
     }
     
     stages {
