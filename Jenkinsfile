@@ -18,7 +18,7 @@ pipeline {
                 echo 'Building the application...'
                 script {
                     // Ensure Maven is available
-                    sh "'${MAVEN_HOME}/bin/mvn' clean install" 
+                    sh "'${MAVEN_HOME}/bin/mvn' clean install"
                 }
             }
         }
